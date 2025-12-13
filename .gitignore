@@ -1,0 +1,61 @@
+# ----------------------------
+# Node dependencies
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------------
+# Build output
+# ----------------------------
+out/
+dist/
+build/
+lib/
+
+# esbuild / webpack caches
+.esbuild/
+.cache/
+
+# ----------------------------
+# VS Code extension packaging
+# ----------------------------
+*.vsix
+
+# ----------------------------
+# TypeScript
+# ----------------------------
+*.tsbuildinfo
+
+# ----------------------------
+# Environment files
+# ----------------------------
+.env
+.env.*
+
+# ----------------------------
+# VS Code workspace files
+# ----------------------------
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Coverage / tests
+# ----------------------------
+coverage/
+
+# ----------------------------
+# Misc
+# ----------------------------
+*.log
