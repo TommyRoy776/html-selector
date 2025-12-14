@@ -16,8 +16,21 @@
       {
         "command": "html-selector.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "html-selector.selectTagBlock",
+        "title": "Select HTML Tag Block"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "html-selector.selectTagBlock",
+          "when": "editorLangId == html",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
