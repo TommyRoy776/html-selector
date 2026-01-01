@@ -71,4 +71,4 @@ You can author your README using Visual Studio Code. Here are some useful editor
 **Enjoy!**
 
 ## Video demo 
-![Demo video](public\vs-code-plugin.mp4)
+<video src="public/vs-code-plugin.mp4" controls></video>
